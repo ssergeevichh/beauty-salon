@@ -1,0 +1,144 @@
+.carousel-services {
+    &__item {
+        position: relative;
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        &-bg-color1 {
+            background-color: $blue;
+        }
+
+        &-bg-color2 {
+            background-color: $red;
+        }
+
+        &-bg-color3 {
+            background-color: $accent;
+        }
+
+        &:hover {
+            transition: all .3s;
+
+            .carousel-services__img {
+                opacity: .8;
+            }
+        }
+
+    }
+
+    &__img {
+        transition: all .3s;
+        opacity: 1;
+    }
+
+    .owl-item {
+        &:nth-child(even) {
+            .carousel-services__item {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0 80px 0;
+    }
+
+    &__title {
+        line-height: initial;
+        text-align: center;
+        margin-top: 10px;
+        margin: 30px 0;
+        font-size: 30px;
+        font-weight: 700;
+
+        span {
+            font-weight: 300;
+            font-size: 30px;
+        }
+    }
+
+    &__list {
+        text-align: center;
+        width: 375px;
+        list-style-type: none;
+        padding: 0;
+
+        li {
+
+            padding: 20px 0;
+            border-bottom: 1px black solid;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            strong {
+                font-size: 20px;
+                color: #4a4a4a;
+                font-weight: bold;
+            }
+
+            .fas {
+                padding: 0 4px;
+                font-size: 15px;
+                color: #4a4a4a;
+
+            }
+        }
+
+    }
+
+    // .owl-carousel {
+    //     position: relative;
+
+    .owl-item img {
+        width: 15%;
+    }
+
+
+    // }
+
+    .owl-prev {
+        width: 64px;
+        height: 64px;
+        background: #fff !important;
+    }
+
+    .owl-next {
+        width: 64px;
+        height: 64px;
+        background: #fff !important;
+    }
+
+    .owl-carousel .owl-nav.disabled {
+        top: 0;
+        font-size: 26px;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .owl-nav {
+        top: 0;
+        font-size: 26px;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .owl-dots {
+        display: none;
+    }
+
+
+}

@@ -1,0 +1,43 @@
+.photo-slider {
+    color: white;
+    padding: 40px 120px;
+
+    &__title {
+        margin-top: 25px;
+        font-size: 30px;
+        font-weight: 800;
+        color: #fff;
+
+        span {
+            color: $accent;
+        }
+    }
+
+    &__descr {
+        p {
+            margin: 30px 0;
+            font-size: 18px;
+
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#main-slider {
+    margin-bottom: 10px;
+}
+
+.splide__arrows {
+    button {
+        background-color: $accent;
+
+    }
+}
+
+.splide__slide {
+    img {
+        max-width: 100%;
+    }
+}

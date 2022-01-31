@@ -1,0 +1,175 @@
+@media(max-width: 1200px) {
+    .data-greeting {
+        &__title {
+            font-size: 55px;
+        }
+
+        &__descr {
+            font-size: 15px;
+        }
+    }
+
+    .carousel-services__item {
+        flex-direction: column;
+    }
+
+
+
+    .photo-slider {
+        &__title {
+            font-size: 20px;
+
+        }
+
+        &__descr {
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    .data-greeting {
+        margin-top: 72px;
+
+        &__welcome {
+            span {
+                font-size: 12px;
+            }
+        }
+
+        &__place {
+            font-size: 15px;
+        }
+
+        &__title {
+            font-size: 39px;
+        }
+
+        &__descr {
+            font-size: 13.2px;
+            ;
+        }
+    }
+
+    .data-location {
+        span {
+            font-size: 14px;
+        }
+    }
+
+
+
+    .photo-slider {
+        .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .data-greeting {
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+
+        &__welcome {
+            span {
+                font-size: 10px;
+            }
+        }
+
+        &__title {
+            font-size: 36px;
+        }
+
+        &__descr {
+            font-size: 13.2px;
+        }
+    }
+
+
+    .data-location {
+        font-size: 11px;
+
+        span {
+            font-size: 11px;
+        }
+    }
+    .ajax-form {
+        .container {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .top-line {
+        padding: 20px 0px 5px 0px;
+        display: flex;
+        flex-direction: column;
+
+        &__contacts {
+            width: 100%;
+        }
+    }
+
+    .data-greeting {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 30px;
+
+        &__welcome {
+            span {
+                font-size: 8px;
+            }
+        }
+
+        &__title {
+            font-size: 25px;
+        }
+
+        &__descr {
+            margin: 25px 0 33px 0;
+        }
+    }
+
+    .data-social {
+        flex-direction: row;
+
+        .fab {
+            &:hover {
+                background: rgba(255, 255, 255, 0.281);
+            }
+        }
+    }
+
+    .data-location {
+        flex-direction: column;
+
+        i {
+            padding-bottom: 5px;
+        }
+    }
+
+
+    .photo-slider {
+        padding: 0;
+        &__wrapper {
+            margin-bottom: 10px;
+        }
+    }
+    .form {
+        &__title {
+            font-size: 28px;
+        }
+        &__logo {
+            margin: 0 auto;
+        }
+    }
+}

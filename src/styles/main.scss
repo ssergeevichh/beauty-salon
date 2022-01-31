@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap');
+
+@import 'bootstrap/scss/bootstrap-reboot';
+@import 'bootstrap/scss/bootstrap-grid';
+
+@import 'mmenu-js/dist/mmenu.css';
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import 'hamburgers/dist/hamburgers.css';
+@import 'owl.carousel/dist/assets/owl.carousel.css';
+@import 'owl.carousel/dist/assets/owl.theme.default.css';
+@import '@splidejs/splide/dist/css/splide.min.css';
+@import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+
+@import './_select.css';
+@import './variables.scss';
+@import './titles';
+@import './btns';
+
+@import './promo.scss';
+@import './services.scss';
+@import './photo-slider.scss';
+@import './ajax-form.scss';
+@import './reviews.scss';
+@import './partners.scss';
+@import './footer';
+
+@import './media.scss';
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  line-height: 1.75;
+  font-family: $default-font;
+  opacity: 1;
+}
+a {
+  text-decoration: none;
+}
+
+#content,
+section,
+header,
+div {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+

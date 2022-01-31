@@ -1,0 +1,22 @@
+.partners {
+    padding: 5% 0;
+    .row > *:not(.title-margin-bottom) {
+        max-width: 83%;
+        margin: 0 auto;
+    }
+}
+.splide-partners {
+    .splide__track {
+        text-align: center;
+        width: 900px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .splide__list {
+        display: flex;
+        align-items: center;
+    }
+    .splide__arrow {
+        transform: translateY(76%);
+    }
+}
